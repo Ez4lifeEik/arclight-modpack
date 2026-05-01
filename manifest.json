@@ -1,5 +1,5 @@
 {
-    "pack_version":  "2026.05.01",
+    "pack_version":  "2026.05.01.2",
     "minecraft_version":  "1.21.11",
     "loader":  {
                    "type":  "fabric",
@@ -232,6 +232,28 @@
                      "category":  "mods"
                  },
                  {
+                     "filename":  "BetterF3-17.0.0-Fabric-1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/BetterF3-17.0.0-Fabric-1.21.11.jar",
+                     "sha1":  "e1c57a6377d12d6d26c039d317eec00ae7f08e2b",
+                     "size":  1714229,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "BetterF3-17.0.0-Fabric-1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "chat_heads-1.2.1-fabric-1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/chat_heads-1.2.1-fabric-1.21.11.jar",
+                     "sha1":  "17ba8126f1953fc9eb059ca8c82b5b72b3f907d3",
+                     "size":  92750,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "chat_heads-1.2.1-fabric-1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
                      "filename":  "cloth-config-21.11.153-fabric.jar",
                      "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/cloth-config-21.11.153-fabric.jar",
                      "sha1":  "4c224606a963bce223db5b27edb4959ecf40d4ee",
@@ -252,6 +274,28 @@
                      "user_removable":  false,
                      "display_name":  "continuity-3.0.1-beta.1+1.21.11",
                      "category":  "mods"
+                 },
+                 {
+                     "filename":  "dynamic-fps-3.11.6+minecraft-1.21.11-fabric.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/dynamic-fps-3.11.6%2Bminecraft-1.21.11-fabric.jar",
+                     "sha1":  "2e5ab45e69b43812491cfa34f8f7a4ce7623c233",
+                     "size":  219961,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "dynamic-fps-3.11.6+minecraft-1.21.11-fabric",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "entityculling-fabric-1.10.1-mc1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/entityculling-fabric-1.10.1-mc1.21.11.jar",
+                     "sha1":  "4e595b6162d24c3d8d65bc6417cf79daac5bde0d",
+                     "size":  1585638,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "entityculling-fabric-1.10.1-mc1.21.11",
+                     "category":  "client-enhancement"
                  },
                  {
                      "filename":  "fabric-api-0.141.3+1.21.11.jar",
@@ -287,6 +331,17 @@
                      "category":  "mods"
                  },
                  {
+                     "filename":  "ImmediatelyFast-Fabric-1.14.2+1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/ImmediatelyFast-Fabric-1.14.2%2B1.21.11.jar",
+                     "sha1":  "4f17c6b7388f0afc5d24075dc2a294963f78c712",
+                     "size":  310445,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "ImmediatelyFast-Fabric-1.14.2+1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
                      "filename":  "iris-fabric-1.10.7+mc1.21.11.jar",
                      "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/iris-fabric-1.10.7%2Bmc1.21.11.jar",
                      "sha1":  "aae8567bd9ea397d50aff1d0b680a82ffe67040c",
@@ -318,6 +373,61 @@
                      "user_removable":  false,
                      "display_name":  "malilib-fabric-1.21.11-0.27.7",
                      "category":  "mods"
+                 },
+                 {
+                     "filename":  "moreculling-fabric-1.21.11-1.6.2.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/moreculling-fabric-1.21.11-1.6.2.jar",
+                     "sha1":  "11a929de62650cc536244d4c2ba889fa84c1c0f2",
+                     "size":  340975,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "moreculling-fabric-1.21.11-1.6.2",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "NoChatReports-FABRIC-1.21.11-v2.18.0.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/NoChatReports-FABRIC-1.21.11-v2.18.0.jar",
+                     "sha1":  "4e519507bdd81ce2520da33f497a5f12469f5b10",
+                     "size":  245492,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "NoChatReports-FABRIC-1.21.11-v2.18.0",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "reeses-sodium-options-fabric-2.0.3+mc1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/reeses-sodium-options-fabric-2.0.3%2Bmc1.21.11.jar",
+                     "sha1":  "fb452b122fd72e8540d32fbe3df01cc34a45ce41",
+                     "size":  104577,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "reeses-sodium-options-fabric-2.0.3+mc1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "sodium-extra-fabric-0.8.3+mc1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/sodium-extra-fabric-0.8.3%2Bmc1.21.11.jar",
+                     "sha1":  "e8fd1eae0d589393189f64062ca1e46fc03f4ced",
+                     "size":  394219,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "sodium-extra-fabric-0.8.3+mc1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "sound-physics-remastered-fabric-1.21.11-1.5.1.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/sound-physics-remastered-fabric-1.21.11-1.5.1.jar",
+                     "sha1":  "f04c90b17094aaa849b147a42d4df9aa82d54ace",
+                     "size":  203479,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "sound-physics-remastered-fabric-1.21.11-1.5.1",
+                     "category":  "client-enhancement"
                  },
                  {
                      "filename":  "tweakeroo-fabric-1.21.11-0.27.6.jar",
