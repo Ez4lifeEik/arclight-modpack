@@ -1,16 +1,362 @@
 {
-  "pack_version": "1.0.0",
-  "minecraft_version": "1.21.10",
-  "loader": {
-    "type": "forge",
-    "version": "60.1.9"
-  },
-  "java_version": 21,
-  "server": {
-    "address": "luckcclove.xyz",
-    "port": 57733
-  },
-  "mods": [],
-  "resourcepacks": [],
-  "shaderpacks": []
+    "pack_version":  "2026.05.01",
+    "minecraft_version":  "1.21.11",
+    "loader":  {
+                   "type":  "fabric",
+                   "version":  "latest"
+               },
+    "java_version":  21,
+    "server":  {
+                   "address":  "luckcclove.xyz",
+                   "port":  57733
+               },
+    "mods":  [
+                 {
+                     "filename":  "[Lambd的动态光源] lambdynamiclights-4.9.1+1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5BLambd%E7%9A%84%E5%8A%A8%E6%80%81%E5%85%89%E6%BA%90%5D%20lambdynamiclights-4.9.1%2B1.21.11.jar",
+                     "sha1":  "f22487846158f62b3485a5a0723ba048326ac00f",
+                     "size":  2144865,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[Lambd的动态光源] lambdynamiclights-4.9.1+1.21.11",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[Xaero的世界地图] xaeroworldmap-fabric-1.21.11-1.40.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5BXaero%E7%9A%84%E4%B8%96%E7%95%8C%E5%9C%B0%E5%9B%BE%5D%20xaeroworldmap-fabric-1.21.11-1.40.11.jar",
+                     "sha1":  "ff88b8f04532202d2dcc7d4919bae648b1d7fbe8",
+                     "size":  1434362,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[Xaero的世界地图] xaeroworldmap-fabric-1.21.11-1.40.11",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[Xaero的小地图] xaerominimap-fabric-1.21.11-25.3.10.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5BXaero%E7%9A%84%E5%B0%8F%E5%9C%B0%E5%9B%BE%5D%20xaerominimap-fabric-1.21.11-25.3.10.jar",
+                     "sha1":  "4cb5a1d9121f7b1cd03fd17e901c002ba9cac62b",
+                     "size":  2151166,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[Xaero的小地图] xaerominimap-fabric-1.21.11-25.3.10",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[地毯] fabric-carpet-1.21.11-1.4.194+v251223.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E5%9C%B0%E6%AF%AF%5D%20fabric-carpet-1.21.11-1.4.194%2Bv251223.jar",
+                     "sha1":  "7825091272979cd8ed4f88f13408fdbba08f9e8d",
+                     "size":  1532100,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[地毯] fabric-carpet-1.21.11-1.4.194+v251223",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[经验机制改革] Clumps-fabric-1.21.11-29.0.0.1.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E7%BB%8F%E9%AA%8C%E6%9C%BA%E5%88%B6%E6%94%B9%E9%9D%A9%5D%20Clumps-fabric-1.21.11-29.0.0.1.jar",
+                     "sha1":  "626fde9e970030cfc8cb64cd0a1abfc03d37ecc2",
+                     "size":  20355,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[经验机制改革] Clumps-fabric-1.21.11-29.0.0.1",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[锂] lithium-fabric-0.21.4+mc1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E9%94%82%5D%20lithium-fabric-0.21.4%2Bmc1.21.11.jar",
+                     "sha1":  "203bdcb26e97b3217b045e1182651a7d7b6462ec",
+                     "size":  900462,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[锂] lithium-fabric-0.21.4+mc1.21.11",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[迷你HUD] minihud-fabric-1.21.11-0.38.4.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E8%BF%B7%E4%BD%A0HUD%5D%20minihud-fabric-1.21.11-0.38.4.jar",
+                     "sha1":  "e1f70632fcf9cf18a38be720c629391631796217",
+                     "size":  978144,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[迷你HUD] minihud-fabric-1.21.11-0.38.4",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[模组菜单] modmenu-17.0.0-beta.2.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E6%A8%A1%E7%BB%84%E8%8F%9C%E5%8D%95%5D%20modmenu-17.0.0-beta.2.jar",
+                     "sha1":  "632c7565ba0fbc033aa4574e1ae6919f277fe03b",
+                     "size":  1115052,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[模组菜单] modmenu-17.0.0-beta.2",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[钠] sodium-fabric-0.8.7+mc1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E9%92%A0%5D%20sodium-fabric-0.8.7%2Bmc1.21.11.jar",
+                     "sha1":  "e8865210ba9a926fc206ab9e73f9d4988a81ff69",
+                     "size":  1870358,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[钠] sodium-fabric-0.8.7+mc1.21.11",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[苹果皮] appleskin-fabric-mc1.21.11-3.0.8.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E8%8B%B9%E6%9E%9C%E7%9A%AE%5D%20appleskin-fabric-mc1.21.11-3.0.8.jar",
+                     "sha1":  "441fdbf4e9c34fb61517ceb8e15618950dc4d314",
+                     "size":  180107,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[苹果皮] appleskin-fabric-mc1.21.11-3.0.8",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[输入法冲突修复] IMBlocker-6.0.3-fabric-1.21.9+.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E8%BE%93%E5%85%A5%E6%B3%95%E5%86%B2%E7%AA%81%E4%BF%AE%E5%A4%8D%5D%20IMBlocker-6.0.3-fabric-1.21.9%2B.jar",
+                     "sha1":  "0ea7ce218cb922f96008a881c30f74a76f88a784",
+                     "size":  131290,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[输入法冲突修复] IMBlocker-6.0.3-fabric-1.21.9+",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[投影] litematica-fabric-1.21.11-0.26.1.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E6%8A%95%E5%BD%B1%5D%20litematica-fabric-1.21.11-0.26.1.jar",
+                     "sha1":  "b1e6a226b0ecf710917abdd5157823a0efaa9c4b",
+                     "size":  1815170,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[投影] litematica-fabric-1.21.11-0.26.1",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[投影打印机] litematica-printer-1.21.11-3.2.1B.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E6%8A%95%E5%BD%B1%E6%89%93%E5%8D%B0%E6%9C%BA%5D%20litematica-printer-1.21.11-3.2.1B.jar",
+                     "sha1":  "ea2fc7daa522df2c56c5930fe5e7cf87752236ca",
+                     "size":  151729,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[投影打印机] litematica-printer-1.21.11-3.2.1B",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[万用皮肤补丁] CustomSkinLoader_Fabric-14.28.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E4%B8%87%E7%94%A8%E7%9A%AE%E8%82%A4%E8%A1%A5%E4%B8%81%5D%20CustomSkinLoader_Fabric-14.28.jar",
+                     "sha1":  "243fdcc6ad067c3586805527fa64a6389cc4cbff",
+                     "size":  189001,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[万用皮肤补丁] CustomSkinLoader_Fabric-14.28",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[文本占位符 API] placeholder-api-2.8.2+1.21.10.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E6%96%87%E6%9C%AC%E5%8D%A0%E4%BD%8D%E7%AC%A6%20API%5D%20placeholder-api-2.8.2%2B1.21.10.jar",
+                     "sha1":  "bbdc920ecff993148cd6e81a208536132245ce40",
+                     "size":  268662,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[文本占位符 API] placeholder-api-2.8.2+1.21.10",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[物品栏HUD+] inventoryhud.fabric.1.21.11-3.4.29.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E7%89%A9%E5%93%81%E6%A0%8FHUD%2B%5D%20inventoryhud.fabric.1.21.11-3.4.29.jar",
+                     "sha1":  "36ff4f8a05c0f7d66b7c4bdc4778da49ff8205c5",
+                     "size":  226047,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[物品栏HUD+] inventoryhud.fabric.1.21.11-3.4.29",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[一键背包整理Next] InventoryProfilesNext-fabric-1.21.11-2.2.3.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E4%B8%80%E9%94%AE%E8%83%8C%E5%8C%85%E6%95%B4%E7%90%86Next%5D%20InventoryProfilesNext-fabric-1.21.11-2.2.3.jar",
+                     "sha1":  "7835dac2b68a976a339856146f934e76f3e0e4b4",
+                     "size":  1318456,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[一键背包整理Next] InventoryProfilesNext-fabric-1.21.11-2.2.3",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[玉 🔍] Jade-1.21.11-Fabric-21.1.3.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E7%8E%89%20%F0%9F%94%8D%5D%20Jade-1.21.11-Fabric-21.1.3.jar",
+                     "sha1":  "ce60ad477919d53fd801609239abf3f0e518a956",
+                     "size":  945427,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[玉 🔍] Jade-1.21.11-Fabric-21.1.3",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "[自动汉化更新] I18nUpdateMod-3.7.0-all.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/%5B%E8%87%AA%E5%8A%A8%E6%B1%89%E5%8C%96%E6%9B%B4%E6%96%B0%5D%20I18nUpdateMod-3.7.0-all.jar",
+                     "sha1":  "d9c217b569345ae30a5271baa5e9482080c2e41d",
+                     "size":  49726,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "[自动汉化更新] I18nUpdateMod-3.7.0-all",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "architectury-19.0.1-fabric.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/architectury-19.0.1-fabric.jar",
+                     "sha1":  "2d40563f7e36f7a03f094031aeaacb175117928e",
+                     "size":  568474,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "architectury-19.0.1-fabric",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "cloth-config-21.11.153-fabric.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/cloth-config-21.11.153-fabric.jar",
+                     "sha1":  "4c224606a963bce223db5b27edb4959ecf40d4ee",
+                     "size":  1148427,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "cloth-config-21.11.153-fabric",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "continuity-3.0.1-beta.1+1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/continuity-3.0.1-beta.1%2B1.21.11.jar",
+                     "sha1":  "51d34c3f2035db0c7fca321b2d94f01b5167707c",
+                     "size":  997125,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "continuity-3.0.1-beta.1+1.21.11",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "fabric-api-0.141.3+1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/fabric-api-0.141.3%2B1.21.11.jar",
+                     "sha1":  "50de67eb221f0b38216da8668b09ca311327040e",
+                     "size":  2412693,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "fabric-api-0.141.3+1.21.11",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "fabric-language-kotlin-1.13.9+kotlin.2.3.10.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/fabric-language-kotlin-1.13.9%2Bkotlin.2.3.10.jar",
+                     "sha1":  "20b2200961e11994595ebb2d5f6624f232d13751",
+                     "size":  7642216,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "fabric-language-kotlin-1.13.9+kotlin.2.3.10",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "ftb-library-fabric-2111.1.1.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/ftb-library-fabric-2111.1.1.jar",
+                     "sha1":  "21582a375a473bd24aeead78c86f1a9242454874",
+                     "size":  1504678,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "ftb-library-fabric-2111.1.1",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "iris-fabric-1.10.7+mc1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/iris-fabric-1.10.7%2Bmc1.21.11.jar",
+                     "sha1":  "aae8567bd9ea397d50aff1d0b680a82ffe67040c",
+                     "size":  2807547,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "iris-fabric-1.10.7+mc1.21.11",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "libIPN-fabric-1.21.11-6.6.2.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/libIPN-fabric-1.21.11-6.6.2.jar",
+                     "sha1":  "bf7764431b252d2de415cb5c017d9645873b008e",
+                     "size":  645861,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "libIPN-fabric-1.21.11-6.6.2",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "malilib-fabric-1.21.11-0.27.7.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/malilib-fabric-1.21.11-0.27.7.jar",
+                     "sha1":  "81d84f56ba463e91b257c646b719f85326a7a1bb",
+                     "size":  1915390,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "malilib-fabric-1.21.11-0.27.7",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "tweakeroo-fabric-1.21.11-0.27.6.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/tweakeroo-fabric-1.21.11-0.27.6.jar",
+                     "sha1":  "10fb73e148e3c26c59a3e4ad64e3a4f1a5c15433",
+                     "size":  709998,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "tweakeroo-fabric-1.21.11-0.27.6",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "yet_another_config_lib_v3-3.8.2+1.21.11-fabric.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/yet_another_config_lib_v3-3.8.2%2B1.21.11-fabric.jar",
+                     "sha1":  "f99cda70903f16dd6927a276150b2762b4d5ab66",
+                     "size":  1126948,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "yet_another_config_lib_v3-3.8.2+1.21.11-fabric",
+                     "category":  "mods"
+                 },
+                 {
+                     "filename":  "zoomify-2.15.2+1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/zoomify-2.15.2%2B1.21.11.jar",
+                     "sha1":  "e1f738a9026e9f087d96861935f994b010b8131a",
+                     "size":  873443,
+                     "side":  "both",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "zoomify-2.15.2+1.21.11",
+                     "category":  "mods"
+                 }
+             ],
+    "resourcepacks":  [
+
+                      ],
+    "shaderpacks":  [
+
+                    ]
 }
