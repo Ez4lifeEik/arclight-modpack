@@ -1,5 +1,5 @@
 {
-    "pack_version":  "2026.05.01.2",
+    "pack_version":  "2026.05.01.3",
     "minecraft_version":  "1.21.11",
     "loader":  {
                    "type":  "fabric",
@@ -221,6 +221,17 @@
                      "category":  "mods"
                  },
                  {
+                     "filename":  "amecs-bundle-1.6.3+mc1.21.9.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/amecs-bundle-1.6.3%2Bmc1.21.9.jar",
+                     "sha1":  "b6e70c66e70d7ec1a0a60e261b6754575bac3594",
+                     "size":  144799,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "amecs-bundle-1.6.3+mc1.21.9",
+                     "category":  "client-enhancement"
+                 },
+                 {
                      "filename":  "architectury-19.0.1-fabric.jar",
                      "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/architectury-19.0.1-fabric.jar",
                      "sha1":  "2d40563f7e36f7a03f094031aeaacb175117928e",
@@ -232,6 +243,28 @@
                      "category":  "mods"
                  },
                  {
+                     "filename":  "BetterAdvancements-Fabric-1.21.11-0.4.8.54.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/BetterAdvancements-Fabric-1.21.11-0.4.8.54.jar",
+                     "sha1":  "b816a30ec627c4a45a6ee4cf62d8b1c31e42d7e5",
+                     "size":  103189,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "BetterAdvancements-Fabric-1.21.11-0.4.8.54",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "better-clouds-1.11.3-alpha+1.21.11-fabric.rev.0daa830.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/better-clouds-1.11.3-alpha%2B1.21.11-fabric.rev.0daa830.jar",
+                     "sha1":  "3e14c71a7b1057a6748e84517d6ea94ad349df15",
+                     "size":  787608,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "better-clouds-1.11.3-alpha+1.21.11-fabric.rev.0daa830",
+                     "category":  "client-enhancement"
+                 },
+                 {
                      "filename":  "BetterF3-17.0.0-Fabric-1.21.11.jar",
                      "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/BetterF3-17.0.0-Fabric-1.21.11.jar",
                      "sha1":  "e1c57a6377d12d6d26c039d317eec00ae7f08e2b",
@@ -240,6 +273,28 @@
                      "required":  true,
                      "user_removable":  false,
                      "display_name":  "BetterF3-17.0.0-Fabric-1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "better-ping-display-fabric-1.21.11-1.2.0.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/better-ping-display-fabric-1.21.11-1.2.0.jar",
+                     "sha1":  "a9e1bf32dca0acae623be619758392db0771f039",
+                     "size":  21805,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "better-ping-display-fabric-1.21.11-1.2.0",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "betterstats-5.1.0+fabric-1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/betterstats-5.1.0%2Bfabric-1.21.11.jar",
+                     "sha1":  "fd86b5ee833a53ecdbdef19783761b552d29616c",
+                     "size":  293453,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "betterstats-5.1.0+fabric-1.21.11",
                      "category":  "client-enhancement"
                  },
                  {
@@ -276,6 +331,39 @@
                      "category":  "mods"
                  },
                  {
+                     "filename":  "controlify-3.0.0-beta.3+1.21.11-fabric.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/controlify-3.0.0-beta.3%2B1.21.11-fabric.jar",
+                     "sha1":  "65b9ae211a7c640a61b3dbef44e22e901996d436",
+                     "size":  7998531,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "controlify-3.0.0-beta.3+1.21.11-fabric",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "cwb-fabric-3.0.0-build.14+mc1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/cwb-fabric-3.0.0-build.14%2Bmc1.21.11.jar",
+                     "sha1":  "51d97f5fba7b6a132976765e06f93e8f044d382c",
+                     "size":  78535,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "cwb-fabric-3.0.0-build.14+mc1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "debugify-1.21.11+1.1.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/debugify-1.21.11%2B1.1.jar",
+                     "sha1":  "a8852a320c6d1a448cfc0f7cb0369e0a3c858146",
+                     "size":  376878,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "debugify-1.21.11+1.1",
+                     "category":  "client-enhancement"
+                 },
+                 {
                      "filename":  "dynamic-fps-3.11.6+minecraft-1.21.11-fabric.jar",
                      "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/dynamic-fps-3.11.6%2Bminecraft-1.21.11-fabric.jar",
                      "sha1":  "2e5ab45e69b43812491cfa34f8f7a4ce7623c233",
@@ -287,6 +375,17 @@
                      "category":  "client-enhancement"
                  },
                  {
+                     "filename":  "enchdesc-fabric-1.21.11-21.11.1.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/enchdesc-fabric-1.21.11-21.11.1.jar",
+                     "sha1":  "5f26cf6b7392bc49301d1440073b923428096970",
+                     "size":  82178,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "enchdesc-fabric-1.21.11-21.11.1",
+                     "category":  "client-enhancement"
+                 },
+                 {
                      "filename":  "entityculling-fabric-1.10.1-mc1.21.11.jar",
                      "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/entityculling-fabric-1.10.1-mc1.21.11.jar",
                      "sha1":  "4e595b6162d24c3d8d65bc6417cf79daac5bde0d",
@@ -295,6 +394,17 @@
                      "required":  true,
                      "user_removable":  false,
                      "display_name":  "entityculling-fabric-1.10.1-mc1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "explosive-enhancement-1.4.1-1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/explosive-enhancement-1.4.1-1.21.11.jar",
+                     "sha1":  "b66aa126881b90e03553714cdddbf13b02a0851d",
+                     "size":  114743,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "explosive-enhancement-1.4.1-1.21.11",
                      "category":  "client-enhancement"
                  },
                  {
@@ -320,6 +430,39 @@
                      "category":  "mods"
                  },
                  {
+                     "filename":  "fabrishot-1.16.4.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/fabrishot-1.16.4.jar",
+                     "sha1":  "e1fe184321dd305e7935f146637381bd63a29891",
+                     "size":  49098,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "fabrishot-1.16.4",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "fastquit-3.1.3+mc1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/fastquit-3.1.3%2Bmc1.21.11.jar",
+                     "sha1":  "9ba127357e1fc9ff800496250fb510f70f394714",
+                     "size":  61123,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "fastquit-3.1.3+mc1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "ForgeConfigAPIPort-v21.11.1-mc1.21.11-Fabric.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/ForgeConfigAPIPort-v21.11.1-mc1.21.11-Fabric.jar",
+                     "sha1":  "61aa1b5fafd75afc44552d0213cac39bc938bc2d",
+                     "size":  598009,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "ForgeConfigAPIPort-v21.11.1-mc1.21.11-Fabric",
+                     "category":  "client-dependency"
+                 },
+                 {
                      "filename":  "ftb-library-fabric-2111.1.1.jar",
                      "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/ftb-library-fabric-2111.1.1.jar",
                      "sha1":  "21582a375a473bd24aeead78c86f1a9242454874",
@@ -329,6 +472,17 @@
                      "user_removable":  false,
                      "display_name":  "ftb-library-fabric-2111.1.1",
                      "category":  "mods"
+                 },
+                 {
+                     "filename":  "held-item-info-1.9.0.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/held-item-info-1.9.0.jar",
+                     "sha1":  "532d18bbe3742e4504eab97d87fc90f056922176",
+                     "size":  83035,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "held-item-info-1.9.0",
+                     "category":  "client-enhancement"
                  },
                  {
                      "filename":  "ImmediatelyFast-Fabric-1.14.2+1.21.11.jar",
@@ -375,6 +529,28 @@
                      "category":  "mods"
                  },
                  {
+                     "filename":  "midnightcontrols-fabric-1.12.0+1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/midnightcontrols-fabric-1.12.0%2B1.21.11.jar",
+                     "sha1":  "828d4fd4ba326503416f632f8fd99e0ada5a0209",
+                     "size":  923365,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "midnightcontrols-fabric-1.12.0+1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "midnightlib-fabric-1.9.2+1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/midnightlib-fabric-1.9.2%2B1.21.11.jar",
+                     "sha1":  "b9617fa5722a8cdc321781a2b6dd97217fcfdc2a",
+                     "size":  58944,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "midnightlib-fabric-1.9.2+1.21.11",
+                     "category":  "client-dependency"
+                 },
+                 {
                      "filename":  "moreculling-fabric-1.21.11-1.6.2.jar",
                      "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/moreculling-fabric-1.21.11-1.6.2.jar",
                      "sha1":  "11a929de62650cc536244d4c2ba889fa84c1c0f2",
@@ -383,6 +559,17 @@
                      "required":  true,
                      "user_removable":  false,
                      "display_name":  "moreculling-fabric-1.21.11-1.6.2",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "MouseTweaks-fabric-mc1.21.11-2.30.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/MouseTweaks-fabric-mc1.21.11-2.30.jar",
+                     "sha1":  "86515de45fe960bd717deea0954055106e857b81",
+                     "size":  75618,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "MouseTweaks-fabric-mc1.21.11-2.30",
                      "category":  "client-enhancement"
                  },
                  {
@@ -397,6 +584,50 @@
                      "category":  "client-enhancement"
                  },
                  {
+                     "filename":  "particlerain-4.0.0-beta.9+1.21.11-fabric.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/particlerain-4.0.0-beta.9%2B1.21.11-fabric.jar",
+                     "sha1":  "3c72dfd6bfe5b302b4dd6dab0d6b89f249f44115",
+                     "size":  605357,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "particlerain-4.0.0-beta.9+1.21.11-fabric",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "PickUpNotifier-v21.11.0-mc1.21.11-Fabric.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/PickUpNotifier-v21.11.0-mc1.21.11-Fabric.jar",
+                     "sha1":  "10047ff968823e49c5f0f97b2077a6654c74042f",
+                     "size":  75224,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "PickUpNotifier-v21.11.0-mc1.21.11-Fabric",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "prickle-fabric-1.21.11-21.11.1.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/prickle-fabric-1.21.11-21.11.1.jar",
+                     "sha1":  "ba448b0b274abd54ad24332055fbb1cdc66e43c0",
+                     "size":  87236,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "prickle-fabric-1.21.11-21.11.1",
+                     "category":  "client-dependency"
+                 },
+                 {
+                     "filename":  "PuzzlesLib-v21.11.12-mc1.21.11-Fabric.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/PuzzlesLib-v21.11.12-mc1.21.11-Fabric.jar",
+                     "sha1":  "f502faff2063b34cfca40cfada13e4fecf69e7fc",
+                     "size":  1124024,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "PuzzlesLib-v21.11.12-mc1.21.11-Fabric",
+                     "category":  "client-dependency"
+                 },
+                 {
                      "filename":  "reeses-sodium-options-fabric-2.0.3+mc1.21.11.jar",
                      "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/reeses-sodium-options-fabric-2.0.3%2Bmc1.21.11.jar",
                      "sha1":  "fb452b122fd72e8540d32fbe3df01cc34a45ce41",
@@ -405,6 +636,50 @@
                      "required":  true,
                      "user_removable":  false,
                      "display_name":  "reeses-sodium-options-fabric-2.0.3+mc1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "rrlsFabric-5.1.15+mc.1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/rrlsFabric-5.1.15%2Bmc.1.21.11.jar",
+                     "sha1":  "7101fc7a030925eb22781320476515f408bbe5f4",
+                     "size":  198379,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "rrlsFabric-5.1.15+mc.1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "shulkerboxtooltip-fabric-5.2.16+1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/shulkerboxtooltip-fabric-5.2.16%2B1.21.11.jar",
+                     "sha1":  "3f889de77a0aec69ffcfd28bf6fb2c077443788a",
+                     "size":  389259,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "shulkerboxtooltip-fabric-5.2.16+1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "skinlayers3d-fabric-1.11.1-mc1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/skinlayers3d-fabric-1.11.1-mc1.21.11.jar",
+                     "sha1":  "a95c49c23db05d98d88e6a225894ca93e4e86b3c",
+                     "size":  1971642,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "skinlayers3d-fabric-1.11.1-mc1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "smoothscroll-2.6.5.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/smoothscroll-2.6.5.jar",
+                     "sha1":  "4d2864f84059b93e45422923215e2fbecb5ef17f",
+                     "size":  99915,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "smoothscroll-2.6.5",
                      "category":  "client-enhancement"
                  },
                  {
@@ -430,6 +705,28 @@
                      "category":  "client-enhancement"
                  },
                  {
+                     "filename":  "status-effect-bars-1.0.10.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/status-effect-bars-1.0.10.jar",
+                     "sha1":  "0cd06e44bff08c9a05f7d96249b267fc77c56cc8",
+                     "size":  47761,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "status-effect-bars-1.0.10",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "tcdcommons-5.1.0+fabric-1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/tcdcommons-5.1.0%2Bfabric-1.21.11.jar",
+                     "sha1":  "c8acc1e0b48af47a98a13602719574e9793fb495",
+                     "size":  457898,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "tcdcommons-5.1.0+fabric-1.21.11",
+                     "category":  "client-dependency"
+                 },
+                 {
                      "filename":  "tweakeroo-fabric-1.21.11-0.27.6.jar",
                      "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/tweakeroo-fabric-1.21.11-0.27.6.jar",
                      "sha1":  "10fb73e148e3c26c59a3e4ad64e3a4f1a5c15433",
@@ -439,6 +736,39 @@
                      "user_removable":  false,
                      "display_name":  "tweakeroo-fabric-1.21.11-0.27.6",
                      "category":  "mods"
+                 },
+                 {
+                     "filename":  "visuality-0.7.13+1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/visuality-0.7.13%2B1.21.11.jar",
+                     "sha1":  "1b40880769e72a419562bc072ac1bccf152275e6",
+                     "size":  82033,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "visuality-0.7.13+1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "wakes-0.5.1+1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/wakes-0.5.1%2B1.21.11.jar",
+                     "sha1":  "4d2cf78a2202aa2a8bd06eb25b79e0a02d31c0db",
+                     "size":  282024,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "wakes-0.5.1+1.21.11",
+                     "category":  "client-enhancement"
+                 },
+                 {
+                     "filename":  "waveycapes-fabric-1.9.2-mc1.21.11.jar",
+                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/waveycapes-fabric-1.9.2-mc1.21.11.jar",
+                     "sha1":  "bc0a0d842e385b75902d9efa5a870db2d89aaa6b",
+                     "size":  1847289,
+                     "side":  "client",
+                     "required":  true,
+                     "user_removable":  false,
+                     "display_name":  "waveycapes-fabric-1.9.2-mc1.21.11",
+                     "category":  "client-enhancement"
                  },
                  {
                      "filename":  "yet_another_config_lib_v3-3.8.2+1.21.11-fabric.jar",
