@@ -1,5 +1,5 @@
 {
-    "pack_version":  "2026.05.02.1",
+    "pack_version":  "2026.05.02.2",
     "minecraft_version":  "1.21.11",
     "loader":  {
                    "type":  "fabric",
@@ -329,17 +329,6 @@
                      "user_removable":  false,
                      "display_name":  "continuity-3.0.1-beta.1+1.21.11",
                      "category":  "mods"
-                 },
-                 {
-                     "filename":  "controlify-3.0.0-beta.3+1.21.11-fabric.jar",
-                     "url":  "https://raw.githubusercontent.com/Ez4lifeEik/arclight-modpack/main/mods/controlify-3.0.0-beta.3%2B1.21.11-fabric.jar",
-                     "sha1":  "65b9ae211a7c640a61b3dbef44e22e901996d436",
-                     "size":  7998531,
-                     "side":  "client",
-                     "required":  true,
-                     "user_removable":  false,
-                     "display_name":  "controlify-3.0.0-beta.3+1.21.11-fabric",
-                     "category":  "client-enhancement"
                  },
                  {
                      "filename":  "cwb-fabric-3.0.0-build.14+mc1.21.11.jar",
